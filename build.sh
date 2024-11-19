@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t sivaapp .
+docker build -t reactapp .
