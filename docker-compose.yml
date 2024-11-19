@@ -1,0 +1,6 @@
+version: '3'
+services:
+  react-capstone:
+    image: "reactapp"
+    ports:
+      - "80:80"
