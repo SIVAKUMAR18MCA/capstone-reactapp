@@ -14,10 +14,6 @@ if [ $GIT_BRANCH = "origin/dev" ]; then
     # Push the Docker image to the dev repository
    docker push $DOCKER_USERNAME/dev
 
-elif [$GIT_BRANCH = "origin/main"]; then
-    chmod +x build.sh
-    ./build.sh
-
     # Tag the Docker image for the prod environment
     docker tag reactapp $DOCKER_USERNAME/prod
 
