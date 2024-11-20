@@ -6,4 +6,8 @@ create the new git repo & create two branches main and dev then you can clone it
 
 create mentioned files Dockerfile,docker-compose.yml,build.sh,deploy.sh,jenkinsfile.
 
-After install following softwares in Ec2   nginx server,git,docker,jenkins.
+install following softwares in Ec2   nginx server,git,docker,jenkins,prometheus,node exporter.
+configure environment variables in jenkins.
+configure webhook in github.
+create two repository in dockerhub prod and dev.
+open needed security groups.
